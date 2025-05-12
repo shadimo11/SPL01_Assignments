@@ -42,3 +42,21 @@ To use each utility, compile the respective C file and run the resulting executa
 ```bash
 gcc -o pwd pwd_main.c
 ./pwd
+```
+### echo
+```bash
+gcc -o echo echo_main.c
+./echo Hello World
+```
+### cp
+```bash
+gcc -o cp cp_main.c
+./cp source.txt destination.txt
+```
+### mv
+```bash
+gcc -o mv mv_main.c
+./mv source.txt new_name.txt
+```
+
+
